@@ -1,0 +1,69 @@
+{
+    "number_channels": 128, 
+    "cross_polarize": false, 
+    "integr_time": 0.256, 
+    "sub_integr_time": 8.0,        
+    "start": "2024y228d21h10m50",
+    "stop": "2024y228d21h10m52", 
+    "fft_size_correlation":128,
+    "fft_size_delaycor":128,
+    "output_file": "file:///data1/omar/sfxc/frb240619d/p55049_25/dm_opt/p55049_25_8us_125KHz_StokesI_DM465250.cor",
+    "filterbank": true, 
+    "pulsars": {
+        "R240619D_D": {
+            "polyco_file": "file:///data1/omar/sfxc/frb240619d/frb240619d_loop.polyco", 
+            "no_intra_channel_dedispersion": false, 
+            "coherent_dedispersion": true
+        }
+    }, 
+    "pulsar_binning": false, 
+    "normalize": false, 
+    "window_function": "NONE", 
+    "data_sources": {
+        "Wb": [  
+        "file:///mnt/disk0/p55049_wb_no0025/p55049_wb_no0025.00000127",
+        "file:///mnt/disk1/p55049_wb_no0025/p55049_wb_no0025.00000128",
+        "file:///mnt/disk2/p55049_wb_no0025/p55049_wb_no0025.00000129",
+        "file:///mnt/disk3/p55049_wb_no0025/p55049_wb_no0025.00000130",
+        "file:///mnt/disk0/p55049_wb_no0025/p55049_wb_no0025.00000131",
+        "file:///mnt/disk1/p55049_wb_no0025/p55049_wb_no0025.00000132",
+        "file:///mnt/disk2/p55049_wb_no0025/p55049_wb_no0025.00000133",
+        "file:///mnt/disk3/p55049_wb_no0025/p55049_wb_no0025.00000134",
+        "file:///mnt/disk0/p55049_wb_no0025/p55049_wb_no0025.00000135",
+        "file:///mnt/disk1/p55049_wb_no0025/p55049_wb_no0025.00000136",
+        "file:///mnt/disk2/p55049_wb_no0025/p55049_wb_no0025.00000137",
+        "file:///mnt/disk3/p55049_wb_no0025/p55049_wb_no0025.00000138"        
+        ]
+    }, 
+    "stations": [
+        "Wb"
+    ], 
+    "channels": [     
+        "CH01", 
+        "CH02", 
+        "CH03", 
+        "CH04", 
+        "CH05", 
+        "CH06", 
+        "CH07", 
+        "CH08", 
+        "CH09", 
+        "CH10", 
+        "CH11", 
+        "CH12", 
+        "CH13", 
+        "CH14", 
+        "CH15", 
+        "CH16"     
+    ], 
+    "exper_name": "p55049", 
+    "delay_directory": "file:///data1/omar/sfxc/frb240619d/p55049_25/dm_opt/", 
+    "message_level": 1, 
+    "file_parameters": {
+        "Wb": {
+            "sources": [
+                "sleipnir:/mnt/disk*/p55049_wb_no0025/*"
+            ]
+        }
+    }
+}

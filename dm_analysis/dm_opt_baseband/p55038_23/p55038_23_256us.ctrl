@@ -1,0 +1,67 @@
+{
+    "number_channels": 32, 
+    "cross_polarize": false, 
+    "integr_time": 0.256, 
+    "sub_integr_time": 256.0,
+    "start": "2024y217d21h21m15",
+    "stop": "2024y217d21h21m17",
+    "fft_size_correlation":32,
+    "fft_size_delaycor":32,
+    "output_file": "file:///data1/omar/sfxc/frb240619d/p55038_23/dm_opt/p55038_23_256us_500KHz_StokesI_DM465900.cor",
+    "filterbank": true, 
+    "pulsars": {
+        "R240619D_D": {
+            "polyco_file": "file:///data1/omar/sfxc/frb240619d/frb240619d_loop.polyco", 
+            "no_intra_channel_dedispersion": false, 
+            "coherent_dedispersion": true
+        }
+    }, 
+    "pulsar_binning": false, 
+    "normalize": false, 
+    "window_function": "NONE", 
+    "data_sources": {
+        "Wb": [  
+        "file:///mnt/disk0/p55038_wb_no0023/p55038_wb_no0023.00000063",
+        "file:///mnt/disk1/p55038_wb_no0023/p55038_wb_no0023.00000064",
+        "file:///mnt/disk2/p55038_wb_no0023/p55038_wb_no0023.00000065",
+        "file:///mnt/disk3/p55038_wb_no0023/p55038_wb_no0023.00000066",
+        "file:///mnt/disk0/p55038_wb_no0023/p55038_wb_no0023.00000067",
+        "file:///mnt/disk1/p55038_wb_no0023/p55038_wb_no0023.00000068",
+        "file:///mnt/disk2/p55038_wb_no0023/p55038_wb_no0023.00000069",
+        "file:///mnt/disk3/p55038_wb_no0023/p55038_wb_no0023.00000070",
+        "file:///mnt/disk0/p55038_wb_no0023/p55038_wb_no0023.00000071",
+        "file:///mnt/disk1/p55038_wb_no0023/p55038_wb_no0023.00000072"
+        ]
+    }, 
+    "stations": [
+        "Wb"
+    ], 
+    "channels": [     
+        "CH01", 
+        "CH02", 
+        "CH03", 
+        "CH04", 
+        "CH05", 
+        "CH06", 
+        "CH07", 
+        "CH08", 
+        "CH09", 
+        "CH10", 
+        "CH11", 
+        "CH12", 
+        "CH13", 
+        "CH14", 
+        "CH15", 
+        "CH16"     
+    ], 
+    "exper_name": "p55038", 
+    "delay_directory": "file:///data1/omar/sfxc/frb240619d/p55038_23/dm_opt/", 
+    "message_level": 1, 
+    "file_parameters": {
+        "Wb": {
+            "sources": [
+                "sleipnir:/mnt/disk*/p55038_wb_no0023/*"
+            ]
+        }
+    }
+}
