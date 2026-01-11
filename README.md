@@ -42,7 +42,13 @@ Folders:
         /dm_opt_baseband
             Code and structure to run SFXC in a for-loop in order to create the coherent S/N vs. DM curves shows in Fig 2.
             The .csv files are present in the folders.
-            
+
+    ./scintillation_analysis
+    All relevant code and functions to recreate the scintillation analysis. The filterbank files are not hosted on GitHub due to large file sizes. Instead these files can be downloaded via the Zenodo link.
+
+    ./scattering_analysis
+    All relevant code and functions used in the scatterig analysis.    
+    
     ./python:
     Relevant Python scripts and Jupyter Notebook code used to analyze the data and generate the plots. Each file includes relevant comments.
 
