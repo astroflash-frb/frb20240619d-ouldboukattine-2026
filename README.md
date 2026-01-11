@@ -44,10 +44,13 @@ Folders:
             The .csv files are present in the folders.
 
     ./scintillation_analysis
-    All relevant code and functions to recreate the scintillation analysis. The filterbank files are not hosted on GitHub due to large file sizes. Instead these files can be downloaded via the Zenodo link.
+    All relevant code and functions to recreate the scintillation analysis (Figure 7 / section 3.5 & 4.4). The filterbank files are not hosted on GitHub due to large file sizes. Instead these files can be downloaded via the Zenodo link.
 
     ./scattering_analysis
-    All relevant code and functions used in the scatterig analysis.    
+    All relevant code and functions used in the scatterig analysis (Figure 6 / section 3.4 & 4.4).    
+
+    ./DM_RM_analysis
+    Code for section 4.3 and Figure 9.
     
     ./python:
     Relevant Python scripts and Jupyter Notebook code used to analyze the data and generate the plots. Each file includes relevant comments.
