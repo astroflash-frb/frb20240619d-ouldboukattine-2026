@@ -17,6 +17,9 @@ Files:
     Bash scripts (.sh):
     Scripts used to generate and prepare filterbank files and archive files used in the analysis.
 
+    frb_functions.py
+    frb helper functions used throughout most of the scripts (opening of files, downsampling, dedispersion and other tasks)
+
 Folders:
 
     ./databases:
